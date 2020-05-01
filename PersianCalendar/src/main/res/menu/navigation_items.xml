@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_date_range"
+        android:title="@string/calendar" />
+
+    <item
+        android:id="@+id/converter"
+        android:icon="@drawable/ic_swap_vertical_circle"
+        android:title="@string/date_converter" />
+
+    <item
+        android:id="@+id/compass"
+        android:icon="@drawable/ic_explore"
+        android:title="@string/compass" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+
+</menu>
