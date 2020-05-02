@@ -44,7 +44,7 @@ android {
         applicationId = "ir.genesis.calendar"
         minSdkVersion(15)
         targetSdkVersion(29)
-        versionCode = 1502
+        versionCode = 1503
         versionName = "9.2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
