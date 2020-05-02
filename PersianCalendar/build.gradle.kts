@@ -42,11 +42,10 @@ android {
 
     defaultConfig {
         applicationId = "ir.genesis.calendar"
-        multiDexEnabled = true
         minSdkVersion(15)
         targetSdkVersion(29)
-        versionCode = 1501
-        versionName = "9.0.0"
+        versionCode = 1502
+        versionName = "9.2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         resConfigs("en", "fa", "ckb", "ar", "ur", "ps", "glk", "azb", "ja")
@@ -130,10 +129,4 @@ dependencies {
     androidTestImplementation("androidx.test:rules:1.2.0")
     androidTestImplementation("androidx.test.espresso:espresso-contrib:3.2.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.2.0")
-
-    implementation ("com.google.firebase:firebase-messaging:17.6.0")
-
-    implementation ("me.cheshmak:analytics:4.+")
-
-    implementation ("com.android.support:multidex:1.0.3")
 }
